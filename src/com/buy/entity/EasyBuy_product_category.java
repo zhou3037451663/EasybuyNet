@@ -9,8 +9,18 @@ import java.io.Serializable;
  */
 public class EasyBuy_product_category implements Serializable {
     private int id;
+    private String name;
     private int parentId;
     private int type;
+    private String iconClass;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
     public int getId() {
         return id;
@@ -44,6 +54,6 @@ public class EasyBuy_product_category implements Serializable {
         this.iconClass = iconClass;
     }
 
-    private String iconClass;
+
 
 }

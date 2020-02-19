@@ -9,8 +9,18 @@ import java.io.Serializable;
  */
 public class EasyBuy_news implements Serializable {
     private int id;
+    private String title;
     private String content;
     private String createTime;
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
 
     public int getId() {
         return id;
