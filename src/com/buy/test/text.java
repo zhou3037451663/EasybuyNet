@@ -18,8 +18,8 @@ public class text {
     public void testFor() {
         IProductCategory iProductCategory=new ProductCategoryImpl();
         List<EasyBuy_product_category> list=iProductCategory.queryAllProductCategory("0");
-        for (EasyBuy_product_category l:list){
-            System.out.println(l.getName());
+        for (EasyBuy_product_category easybuy:list){
+            System.out.print(easybuy.getName()+"\t");
         }
     }
 }

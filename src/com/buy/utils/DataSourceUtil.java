@@ -3,7 +3,6 @@ package com.buy.utils;
 import com.alibaba.druid.pool.DruidDataSource;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
@@ -12,29 +11,30 @@ import java.sql.SQLException;
  * @Explain:
  */
 public class DataSourceUtil {
-/**
- * 配置阿里巴巴连接池
-  */
-private final static String URL="jdbc:mysql://localhost/easybuy";
-    private final static String DRIVER="com.mysql.jdbc.Driver";
-    private final static String USER="admin";
-    private final static String PASSWORD="1234";
+    /**
+     * 配置阿里巴巴连接池
+     */
+    private final static String URL = "jdbc:mysql://localhost/easybuy";
+    private final static String DRIVER = "com.mysql.jdbc.Driver";
+    private final static String USER = "admin";
+    private final static String PASSWORD = "1234";
     //创建druid数据源对象
-    private static DruidDataSource druidDataSource=null;
+    private static DruidDataSource druidDataSource = null;
 
-    static{
+    static {
         try {
             init();
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
+
     /**
      * 配置阿里巴巴数据源
      */
     public static DruidDataSource init() throws SQLException {
         //实例化DruidDataSource
-        druidDataSource =new DruidDataSource();
+        druidDataSource = new DruidDataSource();
         //设置属性的值
         druidDataSource.setDriverClassName(DRIVER);
         druidDataSource.setUrl(URL);
@@ -49,16 +49,17 @@ private final static String URL="jdbc:mysql://localhost/easybuy";
 
     /**
      * 连接数据源的方法
+     *
      * @return
      */
-    public static Connection getConn(){
-        Connection conn=null;
+    public static Connection getConn() {
+        Connection conn = null;
         //加载mysql驱动(开启服务)
         try {
             Class.forName(DRIVER);
             //如果数据库处于没有连接状态，则创建一个连接
-            if (conn==null){
-                conn= druidDataSource.getConnection(USER,PASSWORD);
+            if (conn == null) {
+                conn = druidDataSource.getConnection(USER, PASSWORD);
             }
             System.out.println("连接成功");
         } catch (ClassNotFoundException e) {
@@ -71,10 +72,11 @@ private final static String URL="jdbc:mysql://localhost/easybuy";
 
     /**
      * 关闭的方法
+     *
      * @param conn 数据库连接对象
      */
-    public static void closeConnection(Connection conn){
-        if (conn!=null){
+    public static void closeConnection(Connection conn) {
+        if (conn != null) {
             try {
                 conn.close();
             } catch (SQLException e) {

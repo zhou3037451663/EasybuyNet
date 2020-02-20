@@ -18,23 +18,26 @@ import java.util.List;
 public class ProductCategoryImpl implements IProductCategory {
     @Override
     public List<EasyBuy_product_category> queryAllProductCategory(String parentId) {
-        List<EasyBuy_product_category> productCategories=new ArrayList<EasyBuy_product_category>();
-        EasyBuy_product_category productCategory=null;
+        List<EasyBuy_product_category> productCategories = new ArrayList<EasyBuy_product_category>();
+        EasyBuy_product_category productCategory = null;
 
         try {
-            StringBuffer sql =new StringBuffer();
+            StringBuffer sql = new StringBuffer();
             sql.append("SELECT * FROM easybuy_product_category WHERE 1=1");
             //判断parentID的值，如果为0，显示是一级分类
-            if ((!"".equals(parentId))||null!=parentId){
-                sql.append(" and parentId=0");
+            if ((!"".equals(parentId)) && null != parentId) {
+                sql.append(" and parentId=?");
             }
             //获取连接
-            Connection conn= DataSourceUtil.getConn();
-            PreparedStatement pstmt=conn.prepareStatement(sql.toString());
-            ResultSet rs=pstmt.executeQuery();
+            Connection conn = DataSourceUtil.getConn();
+            PreparedStatement pstmt = conn.prepareStatement(sql.toString());
+            if (!"".equals(parentId) && null != parentId) {
+                pstmt.setObject(1, parentId);
+            }
+            ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
                 //实例化对象
-                productCategory=new EasyBuy_product_category();
+                productCategory = new EasyBuy_product_category();
                 productCategory.setId(rs.getInt(1));
                 productCategory.setName(rs.getString(2));
                 productCategory.setParentId(rs.getInt(3));
