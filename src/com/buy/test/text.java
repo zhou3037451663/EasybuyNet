@@ -3,6 +3,8 @@ package com.buy.test;
 import com.buy.dao.product.IProductCategory;
 import com.buy.dao.product.ProductCategoryImpl;
 import com.buy.entity.EasyBuy_product_category;
+import com.buy.service.product.IProductCategoryService;
+import com.buy.service.product.ProductCategoryServiceImpl;
 import com.buy.utils.DataSourceUtil;
 import org.junit.Test;
 
@@ -16,8 +18,8 @@ import java.util.List;
 public class text {
     @Test
     public void testFor() {
-        IProductCategory iProductCategory=new ProductCategoryImpl();
-        List<EasyBuy_product_category> list=iProductCategory.queryAllProductCategory("0");
+        IProductCategoryService service=new ProductCategoryServiceImpl();
+        List<EasyBuy_product_category> list=service.queryAllProductCategory("0");
         for (EasyBuy_product_category easybuy:list){
             System.out.print(easybuy.getName()+"\t");
         }

@@ -8,12 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63813aef-850a-47af-a6c1-545e1d568d5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/dao/product/ProductCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/dao/product/ProductCategoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/test/text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/test/text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/utils/DataSourceUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/utils/DataSourceUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/buy/test/text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/test/text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,11 +95,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="40" />
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="157">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="139">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,10 +201,12 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/buy/dao/product/IproductCategory.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_product_category.java" />
-        <option value="$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java" />
         <option value="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/buy/test/text.java" />
         <option value="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/test/text.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java" />
       </list>
     </option>
   </component>
@@ -210,8 +232,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="111" />
+    <option name="x" value="206" />
+    <option name="y" value="257" />
     <option name="width" value="1610" />
     <option name="height" value="930" />
   </component>
@@ -281,6 +303,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,7 +363,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582099906816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582168323677" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -467,7 +514,7 @@
       <workItem from="1582007736284" duration="1247000" />
       <workItem from="1582072311993" duration="8812000" />
       <workItem from="1582089680972" duration="2404000" />
-      <workItem from="1582166272655" duration="1000000" />
+      <workItem from="1582166272655" duration="2049000" />
     </task>
     <task id="LOCAL-00001" summary="易买网项目">
       <created>1581999879454</created>
@@ -495,15 +542,27 @@
     <history-entry file="text_testFor - 2020.02.20 at 10h 53m 03s.xml">
       <configuration name="text.testFor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="text_testFor - 2020.02.20 at 11h 07m 26s.xml">
+      <configuration name="text.testFor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19728000" />
+    <option name="totallyTimeSpent" value="20777000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="89" width="1288" height="744" extended-state="0" />
+    <frame x="122" y="430" width="1288" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26585367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26585367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -513,19 +572,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38235295" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38235295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.35196376" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.35130718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33934426" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3382353" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2495935" />
@@ -800,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1961">
@@ -817,20 +866,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="168">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="185">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
