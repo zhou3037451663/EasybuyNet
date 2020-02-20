@@ -18,10 +18,16 @@ import java.util.List;
 public class text {
     @Test
     public void testFor() {
-        IProductCategoryService service=new ProductCategoryServiceImpl();
-        List<EasyBuy_product_category> list=service.queryAllProductCategory("0");
-        for (EasyBuy_product_category easybuy:list){
-            System.out.print(easybuy.getName()+"\t");
+        IProductCategoryService service = new ProductCategoryServiceImpl();
+        List<EasyBuy_product_category> list = service.queryAllProductCategory("0");
+        for (int i = 0; i <list.size() ; i++) {
+            System.out.println(list.get(0).getName());
+            System.out.println(list.get(1).getName());
+            System.out.println(list.get(2).getName());
+            System.out.println(list.get(3).getName());
+            System.out.println(list.get(4).getName());
+            System.out.println(list.get(5).getName());
+            break;
         }
     }
 }
