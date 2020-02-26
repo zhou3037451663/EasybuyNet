@@ -62,15 +62,22 @@ public class LoginServlet extends AbstractServlet {
             result.returnFail("用户不存在");
         } else {
             //比较用户的信息
-            if (user.getPassword().equals(SecurityUtils.md5Hex(password))){
-                request.getSession().setAttribute("loginUser",user);
+            if (user.getPassword().equals(SecurityUtils.md5Hex(password))) {
+                request.getSession().setAttribute("loginUser", user);
                 result.returnSuccess("登录成功");
-            }else {
+            } else {
                 result.returnFail("密码错误!");
             }
         }
         return result;
     }
 
+    public String logOut(HttpServletRequest request, HttpServletResponse response) {
+        ReturnResult result = new ReturnResult();
+        //删除session中用户的记录
+        request.getSession().removeAttribute("loginUser");
+
+        return "/front/home";
+    }
 
 }
