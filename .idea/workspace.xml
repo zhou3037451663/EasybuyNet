@@ -7,11 +7,338 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63813aef-850a-47af-a6c1-545e1d568d5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/front/Regist.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/dao/product/ProductCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/dao/product/ProductCategoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/entity/EasyBuy_user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/entity/EasyBuy_user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/entity/EasybuyUserAddress.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/test/text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/test/text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/utils/DataSourceUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/com/buy/utils/DataSourceUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/dao/product/ProductCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/dao/product/ProductCategoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/entity/EasyBuy_user.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/entity/EasyBuy_user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/entity/EasybuyUserAddress.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/test/text.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/test/text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/utils/DataSourceUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/easybuy2020/com/buy/utils/DataSourceUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/entity/EasybuyUserAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/buy/test/text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/test/text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buy/web/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buy/web/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/front/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/front/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/a_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/a_link.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/add_ad.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_sh_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/b_sh_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/baby_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ban1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bb_ban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bk_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bk_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bk_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bk_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/bk_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/box_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/brand1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/brand2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/brand3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/brand4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/brand5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/btn_jud.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/btn_log.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/btn_sure.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/buy1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/buy2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_t.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/c_ts.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ca_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ca_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ca_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ca_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/car1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/car2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/care.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/cars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/cars_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/d_a.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/d_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/de1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/de2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/de3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/de4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/de5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/equl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/er.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/food_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/fre_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/h_t.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hb_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/heart_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/his_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/his_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/his_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/his_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/his_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/home_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hot1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hot2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hot3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/hot4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_down_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_mem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_num.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/i_up_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/j_car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/jia.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/jia_b.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/jian.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_1_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_2_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_3_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_4_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/l_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/logo副本.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/m_i_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/m_i_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/m_i_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/m_i_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/m_t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/make_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mat_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mat_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mat_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mban_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mban_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/milk_ban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/mores.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/n_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/n_ban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/n_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/n_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/n_not.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nav9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/nban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/p_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pa_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/paper_ban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/peo_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/per_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ph_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/pro8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ps1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ps2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ps3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ps4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/r_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/r_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/s_txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sb3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sbrand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh_3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh_4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/sh_5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/simg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/ss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/suc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/t_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tel_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tj_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tj_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tj_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_ban.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/tm_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/images/z_buy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front/js/jquery-1.11.1.min_044d0927.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,10 +394,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buy/web/HomeServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/front/Login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/dao/user/EasybuyUserImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-675">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +415,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/front/home.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/web/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="504" selection-start-line="504" selection-end-line="504" />
+            <state relative-caret-position="1064">
+              <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/web/AbstractServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/web/HomeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/test/AddTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1017">
+              <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +462,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="487">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/buy/service/user/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,12 +488,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
-        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>png</find>
+      <find>ctx</find>
+      <find>images</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,7 +511,6 @@
         <option value="$PROJECT_DIR$/src/com/buy/entity/result.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_oredr_detail.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_product.java" />
-        <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_order.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user_address.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_news.java" />
@@ -128,16 +518,44 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/buy/dao/product/IproductCategory.java" />
         <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_product_category.java" />
-        <option value="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" />
         <option value="$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java" />
         <option value="$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java" />
         <option value="$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/dd.html" />
-        <option value="$PROJECT_DIR$/src/com/buy/web/HomeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/buy/test/text.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/EmptyUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/PrintUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/ReturnResult.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/product/addUser.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/user/addUserImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/SVerification.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/product/AddUser.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/user/AddUserImpl.java" />
+        <option value="$PROJECT_DIR$/web/Regist.jsp" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/product/AddUserService.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/user/AddUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/front/image.jsp" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/JudgeServlet.java" />
         <option value="$PROJECT_DIR$/web/front/home.jsp" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/user/IUser.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/user/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/service/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/pre/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java" />
+        <option value="$PROJECT_DIR$/web/front/Regist.jsp" />
+        <option value="$PROJECT_DIR$/web/front/css/style.css" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/pre/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/AbstractServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/dao/user/EasybuyUserImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/buy/test/AddTest.java" />
+        <option value="$PROJECT_DIR$/web/front/Login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/buy/web/LoginServlet.java" />
       </list>
     </option>
   </component>
@@ -162,11 +580,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="248" />
-    <option name="y" value="12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="147" />
     <option name="width" value="1610" />
-    <option name="height" value="1103" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -177,8 +594,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +625,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="buy" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="buy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
@@ -219,14 +660,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="buy" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="buy" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
@@ -247,45 +680,48 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="easybuy2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easybuy2020" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="redshift&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="easybuy2020" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582184396011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582628774693" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\程序代码\easybuy2020\src\com\buy\web" />
+      <recent name="E:\程序代码\easybuy2020\web\front\css" />
+      <recent name="E:\程序代码\easybuy2020\web\front\js" />
       <recent name="E:\程序代码\easybuy2020\web\front" />
       <recent name="E:\程序代码\easybuy2020\web\WEB-INF\lib" />
-      <recent name="E:\程序代码\easybuy2020\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\程序代码\easybuy2020\web\front" />
-      <recent name="E:\程序代码\easybuy2020\web\front\css" />
       <recent name="E:\程序代码\easybuy2020\web" />
+      <recent name="E:\程序代码\easybuy2020\web\front\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,8 +737,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.50">
-    <configuration name="text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.buy.test.text" />
+    <configuration name="AddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buy.test.AddTest" />
       <module name="easybuy2020" />
       <extension name="coverage">
         <pattern>
@@ -310,6 +746,48 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buy.utils.SVerification" />
+      <module name="easybuy2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buy.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.buy.utils.SecurityUtils" />
+      <module name="easybuy2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buy.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easybuy2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.buy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.buy.test.AddTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,8 +884,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTest" />
+        <item itemvalue="Application.SecurityUtils" />
+        <item itemvalue="JUnit.AddTest.addUser" />
+        <item itemvalue="Application.SVerification" />
         <item itemvalue="JUnit.text.testFor" />
-        <item itemvalue="Application.text" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +912,16 @@
       <workItem from="1582174844054" duration="3516000" />
       <workItem from="1582178384930" duration="2716000" />
       <workItem from="1582181363733" duration="1623000" />
-      <workItem from="1582183079209" duration="1229000" />
+      <workItem from="1582183079209" duration="1564000" />
+      <workItem from="1582245115808" duration="964000" />
+      <workItem from="1582504342565" duration="8321000" />
+      <workItem from="1582513488544" duration="462000" />
+      <workItem from="1582525409194" duration="7273000" />
+      <workItem from="1582532732227" duration="690000" />
+      <workItem from="1582533542355" duration="4363000" />
+      <workItem from="1582547163417" duration="6591000" />
+      <workItem from="1582598550635" duration="9844000" />
+      <workItem from="1582616758689" duration="9551000" />
     </task>
     <task id="LOCAL-00001" summary="易买网项目">
       <created>1581999879454</created>
@@ -454,28 +944,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582169302681</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="动态显示物品栏">
+      <created>1582184580674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582184580674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="text_testFor - 2020.02.20 at 14h 27m 34s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="text_testFor - 2020.02.20 at 14h 27m 55s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="text_testFor - 2020.02.20 at 14h 28m 28s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="text_testFor - 2020.02.20 at 14h 31m 31s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="text_testFor - 2020.02.20 at 14h 55m 45s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="text_testFor - 2020.02.20 at 15h 13m 36s.xml">
-      <configuration name="text.testFor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="text_testFor - 2020.02.20 at 15h 13m 48s.xml">
       <configuration name="text.testFor" configurationId="JUnit" />
     </history-entry>
@@ -488,9 +967,27 @@
     <history-entry file="text_testFor - 2020.02.20 at 15h 34m 53s.xml">
       <configuration name="text.testFor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 10m 08s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 25m 24s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 27m 41s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 28m 35s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 28m 59s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTest_addUser - 2020.02.24 at 15h 29m 25s.xml">
+      <configuration name="AddTest.addUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36128000" />
+    <option name="totallyTimeSpent" value="84522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,21 +999,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="119" y="0" width="1288" height="867" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.19034852" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.492" visible="true" weight="0.2626016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.5026455" side_tool="true" weight="0.26585367" />
+      <window_info id="Web" order="7" sideWeight="0.508" side_tool="true" weight="0.25853658" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30340135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.57327586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
@@ -524,7 +1020,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3382353" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32843137" />
@@ -535,9 +1031,9 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.3292683" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3292683" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32908848" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,126 +1042,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="易买网项目" />
     <MESSAGE value="servlet展示商品首页" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet展示商品首页" />
+    <MESSAGE value="动态显示物品栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态显示物品栏" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/result.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a067b35-6038-4c8a-afd2-08522b8d2a95/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b04ec6f1-0033-4d82-a7a9-9f2d475bf545/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/67f1b2c9-0233-4b87-a7b6-c594b82495c9/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_oredr_detail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1776#1777#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_product_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasybuyUserAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_product_category" />
     <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user_address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -702,57 +1087,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb27065d-5701-4c02-a898-ce61e927c565/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_user" />
     <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
@@ -763,13 +1098,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_news">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://cb27065d-5701-4c02-a898-ce61e927c565/schema/easybuy/table/easybuy_news" />
     <entry file="file://$PROJECT_DIR$/src/com/buy/dao/BaseDao.java" />
     <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_news.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,27 +1112,7 @@
         <state relative-caret-position="-375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/dd.html" />
-    <entry file="file://$PROJECT_DIR$/web/front/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_product_category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -815,23 +1124,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/PrintUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="-98">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasybuyUserAddress.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="308">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/EmptyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/images/btn_log.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/IProductCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/AddUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/AddUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/SVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="102" column="31" lean-forward="true" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -842,40 +1212,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/front/js/iepng.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/IProductCategory.java">
+    <entry file="file://$PROJECT_DIR$/web/front/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/js/jquery-1.11.1.min_044d0927.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/web/front/image.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/AddUserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/web/HomeServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/user/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/ProductCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/user/IUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="42" />
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/DataSourceUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,8 +1302,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/front/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        <state relative-caret-position="-2240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/images/p_big.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="1660" column="92" lean-forward="true" selection-start-line="1660" selection-start-column="92" selection-end-line="1660" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/entity/EasyBuy_user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/product/AddUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/ReturnResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1018">
+          <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/product/ProductCategoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/web/JudgeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/Regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="138" column="41" lean-forward="true" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/test/text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/service/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/web/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/test/AddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/dao/user/EasybuyUserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/web/AbstractServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buy/web/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +1455,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>web:war exploded</last-edited>
+          <last-edited>easybuy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -949,6 +1509,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -968,6 +1529,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

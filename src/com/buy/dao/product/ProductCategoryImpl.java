@@ -1,5 +1,6 @@
 package com.buy.dao.product;
 
+import com.buy.dao.product.IProductCategory;
 import com.buy.entity.EasyBuy_product_category;
 import com.buy.utils.DataSourceUtil;
 

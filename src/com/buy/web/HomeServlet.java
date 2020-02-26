@@ -6,10 +6,8 @@ import com.buy.service.product.ProductCategoryServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -18,18 +16,36 @@ import java.util.List;
  * @Explain:
  */
 @WebServlet(name = "HomeServlet", urlPatterns = "/home")
-public class HomeServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    //从service获取数据
-        IProductCategoryService productCategoryService=new ProductCategoryServiceImpl();
+public class HomeServlet extends AbstractServlet {
+
+//    //从service获取数据
+//        IProductCategoryService productCategoryService=new ProductCategoryServiceImpl();
+//    List<EasyBuy_product_category> categoryList = productCategoryService.queryAllProductCategory("0");
+//    //存储数据
+//        request.setAttribute("categoryList",categoryList);
+//    //携带数据跳转home.jsp
+//        request.getRequestDispatcher("/front/home.jsp").forward(request,response);
+
+
+//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        this.doPost(request, response);
+//    }
+IProductCategoryService productCategoryService;
+    public void init()throws ServletException{
+        //从server层获取数据
+        productCategoryService=new ProductCategoryServiceImpl();
+    }
+    public String index(HttpServletRequest request,HttpServletResponse response){
+        //从service获取数据
         List<EasyBuy_product_category> categoryList = productCategoryService.queryAllProductCategory("0");
         //存储数据
-        request.setAttribute("categoryList",categoryList);
-        //携带数据跳转home.jsp
-        request.getRequestDispatcher("/front/home.jsp").forward(request,response);
+         request.setAttribute("categoryList",categoryList);
+         //页面跳转
+        return  "/front/home";
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doPost(request, response);
+    @Override
+    public Class getServletClass() {
+        return HomeServlet.class;
     }
 }

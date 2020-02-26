@@ -3,6 +3,8 @@ package com.buy.utils;
 import com.alibaba.druid.pool.DruidDataSource;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
@@ -14,7 +16,7 @@ public class DataSourceUtil {
     /**
      * 配置阿里巴巴连接池
      */
-    private final static String URL = "jdbc:mysql://localhost/easybuy";
+    private final static String URL = "jdbc:mysql://120.55.41.50/easybuy";
     private final static String DRIVER = "com.mysql.jdbc.Driver";
     private final static String USER = "admin";
     private final static String PASSWORD = "1234";
@@ -83,5 +85,29 @@ public class DataSourceUtil {
                 e.printStackTrace();
             }
         }
+    }
+
+    /**
+     * 增删改的通用方法
+     * @param sql
+     * @param param
+     * @return
+     */
+    public static int execaUpdate(String sql,Object... param){
+        Connection conn=getConn();
+        int num=0;
+        try {
+            PreparedStatement pstm=conn.prepareStatement(sql);
+            if (param!=null){
+                for (int i = 0; i <param.length ; i++) {
+                    pstm.setObject(i+1,param[i]);
+                }
+            }
+          num=pstm.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return num;
     }
 }

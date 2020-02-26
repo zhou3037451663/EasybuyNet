@@ -17,6 +17,24 @@ public class EasyBuy_user implements Serializable {
     private String email;
     private String mobile;
     private int type;
+public EasyBuy_user(){}
+    /**
+     *
+     * @param loginName 登录名
+     * @param userName 用户名
+     * @param password 密码
+     * @param sex   性别
+     * @param email 邮箱
+     * @param mobile 手机
+     */
+    public EasyBuy_user(String loginName, String userName, String password, int sex, String email, String mobile) {
+        this.loginName = loginName;
+        this.userName = userName;
+        this.password = password;
+        this.sex = sex;
+        this.email = email;
+        this.mobile = mobile;
+    }
 
     public int getId() {
         return id;

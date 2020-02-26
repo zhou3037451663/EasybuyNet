@@ -1,11 +1,8 @@
 package com.buy.test;
 
-import com.buy.dao.product.IProductCategory;
-import com.buy.dao.product.ProductCategoryImpl;
 import com.buy.entity.EasyBuy_product_category;
 import com.buy.service.product.IProductCategoryService;
 import com.buy.service.product.ProductCategoryServiceImpl;
-import com.buy.utils.DataSourceUtil;
 import org.junit.Test;
 
 import java.util.List;
