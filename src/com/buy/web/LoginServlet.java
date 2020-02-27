@@ -24,7 +24,6 @@ public class LoginServlet extends AbstractServlet {
     @Override
     public void init() throws ServletException {
         userService = new UserServiceImpl();
-        System.out.println("1");
     }
 
     /**
@@ -76,8 +75,7 @@ public class LoginServlet extends AbstractServlet {
         ReturnResult result = new ReturnResult();
         //删除session中用户的记录
         request.getSession().removeAttribute("loginUser");
-
-        return "/front/home";
+        return "/front/Login";
     }
 
 }

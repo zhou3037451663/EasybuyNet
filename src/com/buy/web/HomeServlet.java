@@ -1,6 +1,9 @@
 package com.buy.web;
 
+import com.buy.entity.EasyBuy_news;
 import com.buy.entity.EasyBuy_product_category;
+import com.buy.service.news.INewDaoService;
+import com.buy.service.news.NewsDaoImplService;
 import com.buy.service.product.IProductCategoryService;
 import com.buy.service.product.ProductCategoryServiceImpl;
 
@@ -27,21 +30,27 @@ public class HomeServlet extends AbstractServlet {
 //        request.getRequestDispatcher("/front/home.jsp").forward(request,response);
 
 
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    //    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        this.doPost(request, response);
 //    }
-IProductCategoryService productCategoryService;
-    public void init()throws ServletException{
+    IProductCategoryService productCategoryService;
+    INewDaoService newDaoService;
+
+    public void init() throws ServletException {
         //从server层获取数据
-        productCategoryService=new ProductCategoryServiceImpl();
+        productCategoryService = new ProductCategoryServiceImpl();
+        newDaoService = new NewsDaoImplService();
     }
-    public String index(HttpServletRequest request,HttpServletResponse response){
+
+    public String index(HttpServletRequest request, HttpServletResponse response) {
         //从service获取数据
         List<EasyBuy_product_category> categoryList = productCategoryService.queryAllProductCategory("0");
+        List<EasyBuy_news> newsList = newDaoService.getAllNewsList();
         //存储数据
-         request.setAttribute("categoryList",categoryList);
-         //页面跳转
-        return  "/front/home";
+        request.setAttribute("categoryList", categoryList);
+        request.setAttribute("news", newsList);
+        //页面跳转
+        return "/front/home";
     }
 
     @Override

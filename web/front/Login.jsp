@@ -14,7 +14,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="${ctx}/front/css/style.css"/>
     <!--[if IE 6]>
     <script src="js/iepng.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -49,7 +49,7 @@
 <div class="soubg">
     <div class="sou">
         <span class="fr">
-        	<span class="fl">你好，请<a href="${ctx}/front/Login.jsp">登录</a>&nbsp; <a href="${ctx}/front/Regist.jsp"
+        	<span class="fl">你好，请<a href="${ctx}/front/Login.jsp">登录</a>&nbsp; <a href="${ctx}/register?action=toRegister"
                                                                                   style="color:#ff4e00;">免费注册</a>&nbsp; </span>
             <span class="fl">|&nbsp;关注我们：</span>
             <span class="s_sh"><a href="#" class="sh1">新浪</a><a href="#" class="sh2">微信</a></span>

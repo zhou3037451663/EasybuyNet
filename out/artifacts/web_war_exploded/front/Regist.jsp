@@ -51,10 +51,11 @@
     <div class="sou">
         <span class="fr">
         	<span class="fl">你好，请<a href="${ctx}/front/Login.jsp">登录</a>&nbsp; <a href="${ctx}/front/Regist.jsp"
-                                                                      style="color:#ff4e00;">免费注册</a>&nbsp; </span>
+                                                                                  style="color:#ff4e00;">免费注册</a>&nbsp; </span>
             <span class="fl">|&nbsp;关注我们：</span>
             <span class="s_sh"><a href="#" class="sh1">新浪</a><a href="#" class="sh2">微信</a></span>
-            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="${ctx}/front/images/s_tel.png" align="absmiddle"/></a></span>
+            <span class="fr">|&nbsp;<a href="#">手机版&nbsp;<img src="${ctx}/front/images/s_tel.png"
+                                                              align="absmiddle"/></a></span>
         </span>
     </div>
 </div>
@@ -73,42 +74,51 @@
                         <td width="95">&nbsp;</td>
                         <td>
                             <span class="fl" style="font-size:24px;">注册</span>
-                            <span class="fr">已有商城账号，<a href="${ctx}/front/Login.jsp" style="color:#ff4e00;">我要登录</a></span>
+                            <span class="fr">已有商城账号，<a href="${ctx}/front/Login.jsp"
+                                                       style="color:#ff4e00;">我要登录</a></span>
                         </td>
                     </tr>
                     <tr height="50">
-                        <td align="right"><font color="#ff4e00">*</font>&nbsp;用户名 &nbsp;</td>
-                        <td><input type="text" value="" class="l_user"/></td>
+                        <td align="right"><font color="#ff4e00">*</font>&nbsp;登录名 &nbsp;</td>
+                        <td><input type="text" value="" class="l_user" name="loginName"/></td>
                     </tr>
                     <tr height="50">
+                        <td align="right"><font color="#ff4e00">*</font>&nbsp;用户名 &nbsp;</td>
+                        <td><input type="text" value="" class="l_user" name="userName"/></td>
+                    </tr>
+
+                    <tr height="50">
                         <td align="right"><font color="#ff4e00">*</font>&nbsp;密码 &nbsp;</td>
-                        <td><input type="password" value="" class="l_pwd"/></td>
+                        <td><input type="password" value="" class="l_pwd" name="password"/></td>
                     </tr>
                     <tr height="50">
                         <td align="right"><font color="#ff4e00">*</font>&nbsp;确认密码 &nbsp;</td>
-                        <td><input type="password" value="" class="l_pwd" id="l_pwd"/></td>
+                        <td><input type="password" value="" class="l_pwd1" name="confirmPassword"/></td>
                     </tr>
                     <tr height="50">
                         <td align="right"><font color="#ff4e00">*</font>&nbsp;邮箱 &nbsp;</td>
-                        <td><input type="text" value="" class="l_email"/></td>
+                        <td><input type="text" value="" class="l_email" name="email"/></td>
                     </tr>
                     <tr height="50">
                         <td align="right"><font color="#ff4e00">*</font>&nbsp;手机 &nbsp;</td>
-                        <td><input type="text" value="" class="l_tel"/></td>
+                        <td><input type="text" value="" class="l_tel" name="mobile"/></td>
                     </tr>
                     <tr height="50">
-                        <td align="right">邀请人会员名 &nbsp;</td>
-                        <td><input type="text" value="" class="l_mem"/></td>
+                        <td align="right"><font color="#ff4e00">*</font>性别 &nbsp;</td>
+                        <td>
+                            <input type="radio" name="sex" value="0" checked>男&nbsp;
+                            <input type="radio" name="sex" value="1">女
+                        </td>
                     </tr>
                     <tr height="50">
-                        <td align="right">邀请人ID号 &nbsp;</td>
-                        <td><input type="text" value="" class="l_num"/></td>
+                        <td align="right"><font color="#ff4e00">*</font>身份证号 &nbsp;</td>
+                        <td><input type="text" value="" class="l_num" name="identityCode"/></td>
                     </tr>
                     <tr height="50">
                         <td align="right"><font color="#ff4e00">*</font>&nbsp;验证码 &nbsp;</td>
                         <td>
-                            <input type="text" value="" class="l_ipt"/>
-                            <a href=#"><img src="image.jsp" id="img" style="position: relative; top: 10px;"></a>
+                            <input type="text" value="" class="l_ipt" name="verify"/>
+                            <a href="#"><img src="image.jsp" id="img" style="position: relative; top: 10px;"></a>
                         </td>
                     </tr>
                     <tr>
@@ -121,7 +131,7 @@
                     </tr>
                     <tr height="60">
                         <td>&nbsp;</td>
-                        <td><input type="submit" value="立即注册" class="log_btn1"/></td>
+                        <td><input type="button" value="立即注册" class="log_btn" onclick="register()"/></td>
                     </tr>
                 </table>
             </form>
@@ -144,7 +154,124 @@
     </div>
 </div>
 <!--End Footer End -->
+*
+* Created by bdqn on 2016/5/3.
+*/
+<script>
 
+
+    function register() {
+//获取相关字段的值
+        var loginName = $("input[name='loginName']").val();
+        var userName = $("input[name='userName']").val();
+        var password = $("input[name='password']").val();
+        var confirmPassword = $("input[name='confirmPassword']").val();
+        var email = $("input[name='email']").val();
+        var mobile = $("input[name='mobile']").val();
+        var identityCode = $("input[name='identityCode']").val();
+        var address = $("input[name='address']").val();
+        var sex = $("input[name='sex']:checked").val();
+//判断密码是否一致
+        if (loginName == null || loginName == "") {
+            showMessage("用户名不能为空.");
+            return;
+        }
+
+        if (loginName.length < 2 || loginName > 10) {
+            showMessage("登录名不能小于两个字符或者大于十个字符.");
+            return;
+        }
+
+        if (userName == null || userName == "") {
+            showMessage("真实姓名不能为空.");
+            return;
+        }
+
+        if (userName.length < 2 || userName > 10) {
+            showMessage("真实姓名不能小于两个字符或者大于十个字符.");
+            return;
+        }
+
+        if (password != confirmPassword) {
+            showMessage("两次输入的密码不一致.");
+            return;
+        }
+//判断密码是否为空
+        if (password == "") {
+            showMessage("密码不能为空");
+            return;
+        }
+//验证邮箱格式
+        if (email != null && email != "" && !checkMail(email)) {
+            showMessage("邮箱格式不正确");
+            return;
+        }
+//验证手机格式
+        if (mobile != null && mobile != "" && !checkMobile(mobile)) {
+            showMessage("手机格式不正确");
+            return;
+        }
+//验证身份证格式
+        if (identityCode != null && identityCode != "" && !checkIdentityCode(identityCode)) {
+            showMessage("身份证号格式不正确");
+            return;
+        }
+
+        $.ajax({
+            url: contextPath + "/Register",
+            method: "post",
+            data: {
+                action: "login",
+                loginName: loginName,
+                userName: userName,
+                password: password,
+                sex: sex,
+                email: email,
+                mobile: mobile,
+                action: 'saveUserToDatabase',
+                identityCode: identityCode,
+                address: address
+            },
+            success: function (jsonStr) {
+                var result = eval("(" + jsonStr + ")");
+                if (result.status == 1) {
+                    showMessage(result.message);
+                    window.location.href = contextPath + "/login?action=toLogin";
+                } else {
+                    showMessage(result.message);
+                }
+            }
+        })
+    }
+
+
+    function checkMail(mail) {
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (filter.test(mail))
+            return true;
+        else {
+            return false;
+        }
+    }
+
+    function checkMobile(phone) {
+        var filter = /^\d{5,11}$/;
+        if (filter.test(phone))
+            return true;
+        else {
+            return false;
+        }
+    }
+
+    function checkIdentityCode(identityCode) {
+        var filter = /^\w{18}$/;
+        if (filter.test(identityCode))
+            return true;
+        else {
+            return false;
+        }
+    }
+</script>
 </body>
 <!--[if IE 6]>
 <![endif]-->

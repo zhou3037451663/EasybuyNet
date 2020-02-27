@@ -35,14 +35,24 @@ public class AddTest {
 //            EasyBuy_user user=list.get(i);
 //            System.out.println(user.getLoginName());
 //        }
-        IUser iw=new EasybuyUserImpl();
-        try {
-            EasyBuy_user user=iw.getUserByLoginName("admin");
-            System.out.println(user.getPassword().equals(SecurityUtils.md5Hex("123456")));
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        IUser iw=new EasybuyUserImpl();
+//        try {
+//            EasyBuy_user user=iw.getUserByLoginName("admin");
+//            System.out.println(user.getPassword().equals(SecurityUtils.md5Hex("123456")));
+//
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+        IUser u=new EasybuyUserImpl();
+        EasyBuy_user user=new EasyBuy_user();
+        user.setLoginName("zhou1133");
+        user.setUserName("周");
+        user.setPassword("123568");
+        user.setSex(1);
+        user.setIdentityCode("30351642054632158X");
+        user.setEmail("303546@qq.com");
+        user.setMobile("13654952145");
+        System.out.println(u.save(user));
     }
 
 }

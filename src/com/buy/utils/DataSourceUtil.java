@@ -2,10 +2,7 @@ package com.buy.utils;
 
 import com.alibaba.druid.pool.DruidDataSource;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 /**
  * @Author: Mr.Zhou
@@ -16,7 +13,7 @@ public class DataSourceUtil {
     /**
      * 配置阿里巴巴连接池
      */
-    private final static String URL = "jdbc:mysql://120.55.41.50/easybuy";
+    private final static String URL = "jdbc:mysql://localhost/easybuy";
     private final static String DRIVER = "com.mysql.jdbc.Driver";
     private final static String USER = "admin";
     private final static String PASSWORD = "1234";
@@ -77,7 +74,21 @@ public class DataSourceUtil {
      *
      * @param conn 数据库连接对象
      */
-    public static void closeConnection(Connection conn) {
+    public static void closeConnection(ResultSet rs, PreparedStatement pstm, Connection conn) {
+        if (rs != null) {
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        if (pstm != null) {
+            try {
+                pstm.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
         if (conn != null) {
             try {
                 conn.close();
@@ -89,25 +100,70 @@ public class DataSourceUtil {
 
     /**
      * 增删改的通用方法
+     *
      * @param sql
      * @param param
      * @return
      */
-    public static int execaUpdate(String sql,Object... param){
-        Connection conn=getConn();
-        int num=0;
+    public static int execaUpdate(String sql, Object... param) {
+        Connection conn = getConn();
+        int num = 0;
         try {
-            PreparedStatement pstm=conn.prepareStatement(sql);
-            if (param!=null){
-                for (int i = 0; i <param.length ; i++) {
-                    pstm.setObject(i+1,param[i]);
+            PreparedStatement pstm = conn.prepareStatement(sql);
+            if (param != null) {
+                for (int i = 0; i < param.length; i++) {
+                    pstm.setObject(i + 1, param[i]);
                 }
             }
-          num=pstm.executeUpdate();
+            num = pstm.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
         return num;
+    }
+
+    public int executeInsert(String sql, Object... param) {
+        Connection conn=null;
+        PreparedStatement pstm=null;
+        ResultSet rs=null;
+        Long num = 0L;
+        try {
+             conn=getConn();
+             pstm = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+            if (param != null) {
+                for (int i = 0; i < param.length; i++) {
+                    pstm.setObject(i + 1, param[i]);
+                }
+            }
+            pstm.executeUpdate();
+             rs=pstm.getGeneratedKeys();
+           if (rs.next()){
+               num=rs.getLong(1);
+           }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            closeConnection(rs,pstm,conn);
+        }
+        return num.intValue();
+    }
+    public ResultSet executeQuery(String sql,Object...param){
+        Connection conn=null;
+        PreparedStatement pstm=null;
+        ResultSet rs=null;
+        try {
+            conn=getConn();
+            pstm=conn.prepareStatement(sql);
+            if (param!=null){
+                for (int i = 0; i < param.length; i++) {
+                    pstm.setObject(i+1,param[i]);
+                }
+            }
+            rs=pstm.executeQuery();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return rs;
     }
 }
